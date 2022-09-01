@@ -26,7 +26,7 @@ namespace ConsolUI
             }
 
 
-            Console.WriteLine("\n\nMarkası 2 olan arabalar: \n");
+            Console.WriteLine("\n\nMarkası 2 olan arabalar   : \n");
             foreach (var car in inMemoryCarDal.GetById(2))
             {
                 Console.WriteLine(car.Id + " : " + car.Description + ": Fiyat : " + car.DailyPrice + " : " + car.ModelYear);
